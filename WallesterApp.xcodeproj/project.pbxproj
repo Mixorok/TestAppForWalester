@@ -1,0 +1,755 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D90B4A1B261D06F6009A4CDD /* NameOfSorted.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90B4A1A261D06F6009A4CDD /* NameOfSorted.swift */; };
+		D90EE4552617586A00750D32 /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90EE4542617586A00750D32 /* UIView+Ext.swift */; };
+		D90EE4612617620500750D32 /* MainViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90EE4602617620500750D32 /* MainViewCell.swift */; };
+		D90EE4662618879500750D32 /* DetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90EE4652618879500750D32 /* DetailPresenter.swift */; };
+		D90EE4792618898F00750D32 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90EE4782618898F00750D32 /* DetailViewController.swift */; };
+		D91674C12614C4E800FAE974 /* ModuleBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91674C02614C4E800FAE974 /* ModuleBuilder.swift */; };
+		D91674C62614C65F00FAE974 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91674C52614C65F00FAE974 /* NetworkService.swift */; };
+		D93A4CF0261926D000E2D588 /* FavoritePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93A4CEF261926D000E2D588 /* FavoritePresenter.swift */; };
+		D93A4D0F2619E5D200E2D588 /* FavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93A4D0E2619E5D200E2D588 /* FavoriteViewController.swift */; };
+		D93A4D24261A2A4D00E2D588 /* WallesterApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D93A4D22261A2A4D00E2D588 /* WallesterApp.xcdatamodeld */; };
+		D986F1A92614C2B6005871D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D986F1A82614C2B6005871D6 /* AppDelegate.swift */; };
+		D986F1AB2614C2B6005871D6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D986F1AA2614C2B6005871D6 /* SceneDelegate.swift */; };
+		D986F1B52614C2B8005871D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D986F1B42614C2B8005871D6 /* Assets.xcassets */; };
+		D986F1B82614C2B8005871D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D986F1B62614C2B8005871D6 /* LaunchScreen.storyboard */; };
+		D986F1C32614C2B9005871D6 /* WallesterAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D986F1C22614C2B9005871D6 /* WallesterAppTests.swift */; };
+		D986F1CE2614C2B9005871D6 /* WallesterAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D986F1CD2614C2B9005871D6 /* WallesterAppUITests.swift */; };
+		D986F1DF2614C2FA005871D6 /* MainPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D986F1DE2614C2FA005871D6 /* MainPresenter.swift */; };
+		D986F1E82614C31A005871D6 /* Beer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D986F1E72614C31A005871D6 /* Beer.swift */; };
+		D986F1F52614C44D005871D6 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D986F1F32614C44D005871D6 /* MainViewController.swift */; };
+		D9C465CD261A66300030B365 /* CoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C465CC261A66300030B365 /* CoreData.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D986F1BF2614C2B9005871D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D986F19D2614C2B6005871D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D986F1A42614C2B6005871D6;
+			remoteInfo = WallesterApp;
+		};
+		D986F1CA2614C2B9005871D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D986F19D2614C2B6005871D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D986F1A42614C2B6005871D6;
+			remoteInfo = WallesterApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D90B4A1A261D06F6009A4CDD /* NameOfSorted.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameOfSorted.swift; sourceTree = "<group>"; };
+		D90EE4542617586A00750D32 /* UIView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
+		D90EE4602617620500750D32 /* MainViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewCell.swift; sourceTree = "<group>"; };
+		D90EE4652618879500750D32 /* DetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPresenter.swift; sourceTree = "<group>"; };
+		D90EE4782618898F00750D32 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		D91674C02614C4E800FAE974 /* ModuleBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleBuilder.swift; sourceTree = "<group>"; };
+		D91674C52614C65F00FAE974 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		D93A4CEF261926D000E2D588 /* FavoritePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritePresenter.swift; sourceTree = "<group>"; };
+		D93A4D0E2619E5D200E2D588 /* FavoriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewController.swift; sourceTree = "<group>"; };
+		D93A4D23261A2A4D00E2D588 /* WallesterApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WallesterApp.xcdatamodel; sourceTree = "<group>"; };
+		D986F1A52614C2B6005871D6 /* WallesterApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WallesterApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D986F1A82614C2B6005871D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D986F1AA2614C2B6005871D6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D986F1B42614C2B8005871D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D986F1B72614C2B8005871D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D986F1B92614C2B8005871D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D986F1BE2614C2B9005871D6 /* WallesterAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WallesterAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D986F1C22614C2B9005871D6 /* WallesterAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallesterAppTests.swift; sourceTree = "<group>"; };
+		D986F1C42614C2B9005871D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D986F1C92614C2B9005871D6 /* WallesterAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WallesterAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D986F1CD2614C2B9005871D6 /* WallesterAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallesterAppUITests.swift; sourceTree = "<group>"; };
+		D986F1CF2614C2B9005871D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D986F1DE2614C2FA005871D6 /* MainPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPresenter.swift; sourceTree = "<group>"; };
+		D986F1E72614C31A005871D6 /* Beer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beer.swift; sourceTree = "<group>"; };
+		D986F1F32614C44D005871D6 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		D9C465CC261A66300030B365 /* CoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreData.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D986F1A22614C2B6005871D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D986F1BB2614C2B9005871D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D986F1C62614C2B9005871D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D90B4A1F261D06FA009A4CDD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D90B4A1A261D06F6009A4CDD /* NameOfSorted.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D90EE4592617587200750D32 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D90EE4542617586A00750D32 /* UIView+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D90EE46A2618879F00750D32 /* DetailModule */ = {
+			isa = PBXGroup;
+			children = (
+				D90EE47D2618899200750D32 /* View */,
+				D90EE471261887A700750D32 /* Presenter */,
+			);
+			path = DetailModule;
+			sourceTree = "<group>";
+		};
+		D90EE471261887A700750D32 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				D90EE4652618879500750D32 /* DetailPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		D90EE47D2618899200750D32 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D90EE4782618898F00750D32 /* DetailViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D91674CA2614C66900FAE974 /* ServiceLayer */ = {
+			isa = PBXGroup;
+			children = (
+				D91674C52614C65F00FAE974 /* NetworkService.swift */,
+				D9C465CC261A66300030B365 /* CoreData.swift */,
+			);
+			path = ServiceLayer;
+			sourceTree = "<group>";
+		};
+		D93A4CF4261926D400E2D588 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				D93A4CEF261926D000E2D588 /* FavoritePresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		D93A4CFB261926DA00E2D588 /* FavoriteModule */ = {
+			isa = PBXGroup;
+			children = (
+				D93A4D042619E5B200E2D588 /* View */,
+				D90B4A1F261D06FA009A4CDD /* Model */,
+				D93A4CF4261926D400E2D588 /* Presenter */,
+			);
+			path = FavoriteModule;
+			sourceTree = "<group>";
+		};
+		D93A4D042619E5B200E2D588 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D93A4D0E2619E5D200E2D588 /* FavoriteViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D986F19C2614C2B6005871D6 = {
+			isa = PBXGroup;
+			children = (
+				D986F1A72614C2B6005871D6 /* WallesterApp */,
+				D986F1C12614C2B9005871D6 /* WallesterAppTests */,
+				D986F1CC2614C2B9005871D6 /* WallesterAppUITests */,
+				D986F1A62614C2B6005871D6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D986F1A62614C2B6005871D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D986F1A52614C2B6005871D6 /* WallesterApp.app */,
+				D986F1BE2614C2B9005871D6 /* WallesterAppTests.xctest */,
+				D986F1C92614C2B9005871D6 /* WallesterAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D986F1A72614C2B6005871D6 /* WallesterApp */ = {
+			isa = PBXGroup;
+			children = (
+				D986F1A82614C2B6005871D6 /* AppDelegate.swift */,
+				D986F1AA2614C2B6005871D6 /* SceneDelegate.swift */,
+				D91674C02614C4E800FAE974 /* ModuleBuilder.swift */,
+				D93A4CFB261926DA00E2D588 /* FavoriteModule */,
+				D90EE46A2618879F00750D32 /* DetailModule */,
+				D986F1FB2614C45C005871D6 /* MainModule */,
+				D91674CA2614C66900FAE974 /* ServiceLayer */,
+				D90EE4592617587200750D32 /* Extensions */,
+				D986F1B42614C2B8005871D6 /* Assets.xcassets */,
+				D93A4D22261A2A4D00E2D588 /* WallesterApp.xcdatamodeld */,
+				D986F1B62614C2B8005871D6 /* LaunchScreen.storyboard */,
+				D986F1B92614C2B8005871D6 /* Info.plist */,
+			);
+			path = WallesterApp;
+			sourceTree = "<group>";
+		};
+		D986F1C12614C2B9005871D6 /* WallesterAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				D986F1C22614C2B9005871D6 /* WallesterAppTests.swift */,
+				D986F1C42614C2B9005871D6 /* Info.plist */,
+			);
+			path = WallesterAppTests;
+			sourceTree = "<group>";
+		};
+		D986F1CC2614C2B9005871D6 /* WallesterAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D986F1CD2614C2B9005871D6 /* WallesterAppUITests.swift */,
+				D986F1CF2614C2B9005871D6 /* Info.plist */,
+			);
+			path = WallesterAppUITests;
+			sourceTree = "<group>";
+		};
+		D986F1E32614C2FD005871D6 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				D986F1DE2614C2FA005871D6 /* MainPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		D986F1EC2614C3F8005871D6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D986F1E72614C31A005871D6 /* Beer.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D986F1FA2614C452005871D6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D986F1F32614C44D005871D6 /* MainViewController.swift */,
+				D90EE4602617620500750D32 /* MainViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D986F1FB2614C45C005871D6 /* MainModule */ = {
+			isa = PBXGroup;
+			children = (
+				D986F1FA2614C452005871D6 /* View */,
+				D986F1EC2614C3F8005871D6 /* Model */,
+				D986F1E32614C2FD005871D6 /* Presenter */,
+			);
+			path = MainModule;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D986F1A42614C2B6005871D6 /* WallesterApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D986F1D22614C2B9005871D6 /* Build configuration list for PBXNativeTarget "WallesterApp" */;
+			buildPhases = (
+				D986F1A12614C2B6005871D6 /* Sources */,
+				D986F1A22614C2B6005871D6 /* Frameworks */,
+				D986F1A32614C2B6005871D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WallesterApp;
+			productName = WallesterApp;
+			productReference = D986F1A52614C2B6005871D6 /* WallesterApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D986F1BD2614C2B9005871D6 /* WallesterAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D986F1D52614C2B9005871D6 /* Build configuration list for PBXNativeTarget "WallesterAppTests" */;
+			buildPhases = (
+				D986F1BA2614C2B9005871D6 /* Sources */,
+				D986F1BB2614C2B9005871D6 /* Frameworks */,
+				D986F1BC2614C2B9005871D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D986F1C02614C2B9005871D6 /* PBXTargetDependency */,
+			);
+			name = WallesterAppTests;
+			productName = WallesterAppTests;
+			productReference = D986F1BE2614C2B9005871D6 /* WallesterAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D986F1C82614C2B9005871D6 /* WallesterAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D986F1D82614C2B9005871D6 /* Build configuration list for PBXNativeTarget "WallesterAppUITests" */;
+			buildPhases = (
+				D986F1C52614C2B9005871D6 /* Sources */,
+				D986F1C62614C2B9005871D6 /* Frameworks */,
+				D986F1C72614C2B9005871D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D986F1CB2614C2B9005871D6 /* PBXTargetDependency */,
+			);
+			name = WallesterAppUITests;
+			productName = WallesterAppUITests;
+			productReference = D986F1C92614C2B9005871D6 /* WallesterAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D986F19D2614C2B6005871D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					D986F1A42614C2B6005871D6 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					D986F1BD2614C2B9005871D6 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = D986F1A42614C2B6005871D6;
+					};
+					D986F1C82614C2B9005871D6 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = D986F1A42614C2B6005871D6;
+					};
+				};
+			};
+			buildConfigurationList = D986F1A02614C2B6005871D6 /* Build configuration list for PBXProject "WallesterApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D986F19C2614C2B6005871D6;
+			productRefGroup = D986F1A62614C2B6005871D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D986F1A42614C2B6005871D6 /* WallesterApp */,
+				D986F1BD2614C2B9005871D6 /* WallesterAppTests */,
+				D986F1C82614C2B9005871D6 /* WallesterAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D986F1A32614C2B6005871D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D986F1B82614C2B8005871D6 /* LaunchScreen.storyboard in Resources */,
+				D986F1B52614C2B8005871D6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D986F1BC2614C2B9005871D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D986F1C72614C2B9005871D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D986F1A12614C2B6005871D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D986F1DF2614C2FA005871D6 /* MainPresenter.swift in Sources */,
+				D93A4D24261A2A4D00E2D588 /* WallesterApp.xcdatamodeld in Sources */,
+				D986F1E82614C31A005871D6 /* Beer.swift in Sources */,
+				D91674C62614C65F00FAE974 /* NetworkService.swift in Sources */,
+				D90B4A1B261D06F6009A4CDD /* NameOfSorted.swift in Sources */,
+				D9C465CD261A66300030B365 /* CoreData.swift in Sources */,
+				D90EE4792618898F00750D32 /* DetailViewController.swift in Sources */,
+				D90EE4662618879500750D32 /* DetailPresenter.swift in Sources */,
+				D986F1F52614C44D005871D6 /* MainViewController.swift in Sources */,
+				D90EE4612617620500750D32 /* MainViewCell.swift in Sources */,
+				D90EE4552617586A00750D32 /* UIView+Ext.swift in Sources */,
+				D91674C12614C4E800FAE974 /* ModuleBuilder.swift in Sources */,
+				D93A4D0F2619E5D200E2D588 /* FavoriteViewController.swift in Sources */,
+				D986F1A92614C2B6005871D6 /* AppDelegate.swift in Sources */,
+				D93A4CF0261926D000E2D588 /* FavoritePresenter.swift in Sources */,
+				D986F1AB2614C2B6005871D6 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D986F1BA2614C2B9005871D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D986F1C32614C2B9005871D6 /* WallesterAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D986F1C52614C2B9005871D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D986F1CE2614C2B9005871D6 /* WallesterAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D986F1C02614C2B9005871D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D986F1A42614C2B6005871D6 /* WallesterApp */;
+			targetProxy = D986F1BF2614C2B9005871D6 /* PBXContainerItemProxy */;
+		};
+		D986F1CB2614C2B9005871D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D986F1A42614C2B6005871D6 /* WallesterApp */;
+			targetProxy = D986F1CA2614C2B9005871D6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D986F1B62614C2B8005871D6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D986F1B72614C2B8005871D6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D986F1D02614C2B9005871D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D986F1D12614C2B9005871D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D986F1D32614C2B9005871D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TDUD5XR6HG;
+				INFOPLIST_FILE = WallesterApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Max.WallesterApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D986F1D42614C2B9005871D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TDUD5XR6HG;
+				INFOPLIST_FILE = WallesterApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Max.WallesterApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D986F1D62614C2B9005871D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TDUD5XR6HG;
+				INFOPLIST_FILE = WallesterAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Max.WallesterAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WallesterApp.app/WallesterApp";
+			};
+			name = Debug;
+		};
+		D986F1D72614C2B9005871D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TDUD5XR6HG;
+				INFOPLIST_FILE = WallesterAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Max.WallesterAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WallesterApp.app/WallesterApp";
+			};
+			name = Release;
+		};
+		D986F1D92614C2B9005871D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TDUD5XR6HG;
+				INFOPLIST_FILE = WallesterAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Max.WallesterAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WallesterApp;
+			};
+			name = Debug;
+		};
+		D986F1DA2614C2B9005871D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TDUD5XR6HG;
+				INFOPLIST_FILE = WallesterAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Max.WallesterAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WallesterApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D986F1A02614C2B6005871D6 /* Build configuration list for PBXProject "WallesterApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D986F1D02614C2B9005871D6 /* Debug */,
+				D986F1D12614C2B9005871D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D986F1D22614C2B9005871D6 /* Build configuration list for PBXNativeTarget "WallesterApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D986F1D32614C2B9005871D6 /* Debug */,
+				D986F1D42614C2B9005871D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D986F1D52614C2B9005871D6 /* Build configuration list for PBXNativeTarget "WallesterAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D986F1D62614C2B9005871D6 /* Debug */,
+				D986F1D72614C2B9005871D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D986F1D82614C2B9005871D6 /* Build configuration list for PBXNativeTarget "WallesterAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D986F1D92614C2B9005871D6 /* Debug */,
+				D986F1DA2614C2B9005871D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D93A4D22261A2A4D00E2D588 /* WallesterApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D93A4D23261A2A4D00E2D588 /* WallesterApp.xcdatamodel */,
+			);
+			currentVersion = D93A4D23261A2A4D00E2D588 /* WallesterApp.xcdatamodel */;
+			path = WallesterApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D986F19D2614C2B6005871D6 /* Project object */;
+}
